@@ -7,7 +7,7 @@ This project implements the Tocken Bucket system implementation.
 - One Input packet thread
 - One token thread
 
-/*	 _________________________________________________________________________
+`	 _________________________________________________________________________
         |(mutex lock)								  |
 	|			         _______ 'r' rate incoming tockens	  |
 	|			         |  t  | \ 				  |
@@ -23,7 +23,7 @@ This project implements the Tocken Bucket system implementation.
 	| 									  |
 	|_________________________________________________________________________|
                               < Diagram by - Rakesh Sharad Navale>
-
+`
 
 * Function parses input arguments supplied from commandline, to get values of all the options and check for errors
 * The command line syntax for warmup2 is as follows : warmup2 [-lambda lambda] [-mu mu] [-r r] [-B B] [-P P] [-n num] [-t tsfile]
