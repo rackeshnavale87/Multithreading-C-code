@@ -1,7 +1,8 @@
 # Multithreading-C-code
 Multithreading usage for implementing "client, tocken and servers managerment" (Tocken bucket system implementation).
 
-This project implements the Tocken Bucket system implementation. [Lines of Code : 1200+]
+This project implements the Tocken Bucket system implementation. 
+[Lines of Code : 1200+]
 - There are two server threads (can be increased to improve the performance)
 - One Input packet thread
 - One token thread
