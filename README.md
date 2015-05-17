@@ -1,4 +1,4 @@
-# Multithreading-C-code
+# Token bucket - Multithreading : C implementation
 Multithreading usage for implementing "client, tocken and servers managerment" (Tocken bucket system implementation).
 
 This project implements the Tocken Bucket system implementation. 
@@ -7,8 +7,7 @@ This project implements the Tocken Bucket system implementation.
 - One Input packet thread
 - One token thread
 
-![alt text][logo]
-
+<img src="https://lh3.googleusercontent.com/4NkxGQWXVJK2VBVA1ahepMT0H2v4P1HC4PlTfn0Hn-HM50CAjaCi8JZpiwefFFFse_FWeg=s170" alt="Token Bucket" style="float:center;width:1024px;height:900px">
 
 * Function parses input arguments supplied from commandline, to get values of all the options and check for errors
 * The command line syntax for warmup2 is as follows : warmup2 [-lambda lambda] [-mu mu] [-r r] [-B B] [-P P] [-n num] [-t tsfile]
@@ -28,7 +27,3 @@ High level features :
 - Multhreading management.
 - Mutex implementation.
 - No deadlock & no busy waiting.
-
-
-
-[logo]: https://lh3.googleusercontent.com/4NkxGQWXVJK2VBVA1ahepMT0H2v4P1HC4PlTfn0Hn-HM50CAjaCi8JZpiwefFFFse_FWeg=s170 "Tocken bucket"
