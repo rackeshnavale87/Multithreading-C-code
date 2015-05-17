@@ -21,7 +21,7 @@ This project implements the Tocken Bucket system implementation. [Lines of Code 
 	| 'lambda' rate								  |          
 	| 									  |
 	|_________________________________________________________________________|
-		
+                              < Diagram by - Rakesh Sharad Navale>
 
 
 * Function parses input arguments supplied from commandline, to get values of all the options and check for errors
