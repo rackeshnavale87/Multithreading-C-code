@@ -7,37 +7,9 @@ This project implements the Tocken Bucket system implementation.
 - One Input packet thread
 - One token thread
 
-<pre>
+https://lh3.googleusercontent.com/4NkxGQWXVJK2VBVA1ahepMT0H2v4P1HC4PlTfn0Hn-HM50CAjaCi8JZpiwefFFFse_FWeg=s170
 
 
-
-
-`	 _________________________________________________________________________
-        |(mutex lock)								  |
-	|			         _______ 'r' rate incoming tockens	  |
-	|			         |  t  | \ 				  |
-	|			         |  t  |  \				  |
-	|			         |  t  |   }> 'B'			  |
-	|			         |  t  |  /				  |
-	|			         |  t  | / 				  |
-	|			         =======				  |
-   	|				    |			            ~-------> S1 \
-	|  incoming 'n' packets		    |			           /	  |	  }= at 'mu' rate
-     ---|------> Q1[][]...[][][] -------->--*--------> Q2[][][]...[][][]------------> S2 /
-	| 'lambda' rate								  |          
-	| 									  |
-	|_________________________________________________________________________|
-                              < Diagram by - Rakesh Sharad Navale>
-`
-
-
-
-
-
-
-
-
-</pre>
 * Function parses input arguments supplied from commandline, to get values of all the options and check for errors
 * The command line syntax for warmup2 is as follows : warmup2 [-lambda lambda] [-mu mu] [-r r] [-B B] [-P P] [-n num] [-t tsfile]
 * A commandline option is a commandline argument that begins with a - character in a commandline syntax specification
