@@ -7,7 +7,7 @@ This project implements the Tocken Bucket system implementation.
 - One Input packet thread
 - One token thread
 
-https://lh3.googleusercontent.com/4NkxGQWXVJK2VBVA1ahepMT0H2v4P1HC4PlTfn0Hn-HM50CAjaCi8JZpiwefFFFse_FWeg=s170
+![alt text][logo]
 
 
 * Function parses input arguments supplied from commandline, to get values of all the options and check for errors
@@ -29,3 +29,6 @@ High level features :
 - Mutex implementation.
 - No deadlock & no busy waiting.
 
+
+
+[logo]: https://lh3.googleusercontent.com/4NkxGQWXVJK2VBVA1ahepMT0H2v4P1HC4PlTfn0Hn-HM50CAjaCi8JZpiwefFFFse_FWeg=s170 "Tocken bucket"
