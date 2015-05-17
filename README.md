@@ -39,8 +39,8 @@ This project implements the Tocken Bucket system implementation.
 */
 
 High level features :
-Signal management
-Multhreading management
-Mutex implementation
-No deadlock & no busy waiting.
+- Signal management.
+- Multhreading management.
+- Mutex implementation.
+- No deadlock & no busy waiting.
 
